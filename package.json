@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node src/rp2040.ts"
+    "start": "ts-node src/rp2040.ts",
+    "debug": "node --inspect-brk --require ts-node/register src/rp2040.ts"
   },
   "author": "",
   "license": "ISC",
